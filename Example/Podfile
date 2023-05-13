@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '16.2'
+platform :ios, '10.0'
 
 target 'justpass-me_Example' do
   pod 'justpass-me', :path => '../'
