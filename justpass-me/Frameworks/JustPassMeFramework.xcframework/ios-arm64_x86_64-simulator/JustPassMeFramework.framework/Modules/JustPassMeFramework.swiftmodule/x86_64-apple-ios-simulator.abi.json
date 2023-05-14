@@ -301,6 +301,132 @@
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
       "kind": "StringLiteral",
+      "offset": 906,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 965,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 992,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 997,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1039,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1239,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1250,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 8,
+      "value": "\"%02hhX\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6957,
+      "length": 38,
+      "value": "\"Received unknown authorization type.\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7571,
+      "length": 29,
+      "value": "\"Both continuations are nil.\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "StringLiteral",
       "offset": 1714,
       "length": 14,
       "value": "\"JustPassMeFramework.PasskeyManager\""
@@ -321,10 +447,381 @@
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 35,
+      "value": "\"JUSTPASSME_ENABLE_NETWORK_LOGGING\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "\"yes\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
+      "length": 21,
+      "value": "\"Request URL: \""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 50,
+      "value": "\"Response status code: \""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 75,
+      "value": "\"Response Data: \""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1473,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1479,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1580,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1609,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2191,
+      "length": 5,
+      "value": "\"app\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 22,
+      "value": "\"JUSTPASS-ME-PLATFORM\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2393,
+      "length": 11,
+      "value": "\"publicKey\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2722,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2746,
+      "length": 5,
+      "value": "\"ERR\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2823,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3368,
+      "length": 4,
+      "value": "\"rp\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3409,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3469,
+      "length": 42,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3485,
+      "length": 1,
+      "value": "\"\/auth\/fido2\/reg_complete\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3643,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3671,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3711,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3802,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3865,
+      "length": 7,
+      "value": "\"rawId\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3931,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3939,
+      "length": 12,
+      "value": "\"public-key\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3959,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3981,
+      "length": 19,
+      "value": "\"attestationObject\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4070,
+      "length": 16,
+      "value": "\"clientDataJSON\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4194,
+      "length": 38,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4210,
+      "length": 1,
+      "value": "\"\/auth\/back_to_client\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4533,
+      "offset": 4440,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4763,
+      "length": 6,
+      "value": "\"rpId\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4826,
+      "length": 43,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4842,
+      "length": 1,
+      "value": "\"\/auth\/fido2\/complete_auth\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5002,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5030,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5070,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5161,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5221,
+      "length": 7,
+      "value": "\"rawId\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5284,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5292,
+      "length": 12,
+      "value": "\"public-key\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5312,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5336,
+      "length": 19,
+      "value": "\"authenticatorData\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5423,
+      "length": 16,
+      "value": "\"clientDataJSON\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5504,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5572,
+      "length": 12,
+      "value": "\"userHandle\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5680,
+      "length": 38,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5696,
+      "length": 1,
+      "value": "\"\/auth\/back_to_client\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
