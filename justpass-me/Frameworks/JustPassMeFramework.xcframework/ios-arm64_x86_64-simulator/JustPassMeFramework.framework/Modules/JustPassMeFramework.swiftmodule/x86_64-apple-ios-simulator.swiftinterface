@@ -12,6 +12,12 @@ import _StringProcessing
 import os
 @objc @available(iOS 16.0, *)
 final public class JustPassMeClient : ObjectiveC.NSObject {
+  public enum JustPassMeClientError : Swift.Error {
+    case badURL
+    case badResponse
+    case noPublicKey
+    case runtimeError(Swift.String)
+  }
   @objc public init(presentationAnchor: AuthenticationServices.ASPresentationAnchor)
   #if compiler(>=5.3) && $AsyncAwait
   @objc final public func register(registrationURL: Swift.String, extraClientHeaders: [Swift.String : Swift.String]? = nil) async throws -> Foundation.NSDictionary

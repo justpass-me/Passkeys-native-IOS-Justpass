@@ -45,6 +45,197 @@
         "printedName": "JustPassMeClient",
         "children": [
           {
+            "kind": "TypeDecl",
+            "name": "JustPassMeClientError",
+            "printedName": "JustPassMeClientError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "badURL",
+                "printedName": "badURL",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type) -> JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JustPassMeClientError",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                        "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JustPassMeClientError",
+                            "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                            "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO6badURLyA2EmF",
+                "mangledName": "$s19JustPassMeFramework0abC6ClientC0abcE5ErrorO6badURLyA2EmF",
+                "moduleName": "JustPassMeFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "badResponse",
+                "printedName": "badResponse",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type) -> JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JustPassMeClientError",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                        "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JustPassMeClientError",
+                            "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                            "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO11badResponseyA2EmF",
+                "mangledName": "$s19JustPassMeFramework0abC6ClientC0abcE5ErrorO11badResponseyA2EmF",
+                "moduleName": "JustPassMeFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "noPublicKey",
+                "printedName": "noPublicKey",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type) -> JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JustPassMeClientError",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                        "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JustPassMeClientError",
+                            "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                            "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO11noPublicKeyyA2EmF",
+                "mangledName": "$s19JustPassMeFramework0abC6ClientC0abcE5ErrorO11noPublicKeyyA2EmF",
+                "moduleName": "JustPassMeFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "runtimeError",
+                "printedName": "runtimeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type) -> (Swift.String) -> JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JustPassMeClientError",
+                            "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                            "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JustPassMeClientError",
+                            "printedName": "JustPassMeFramework.JustPassMeClient.JustPassMeClientError",
+                            "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO07runtimeF0yAESScAEmF",
+                "mangledName": "$s19JustPassMeFramework0abC6ClientC0abcE5ErrorO07runtimeF0yAESScAEmF",
+                "moduleName": "JustPassMeFramework"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19JustPassMeFramework0abC6ClientC0abcE5ErrorO",
+            "mangledName": "$s19JustPassMeFramework0abC6ClientC0abcE5ErrorO",
+            "moduleName": "JustPassMeFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(presentationAnchor:)",
@@ -448,378 +639,378 @@
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 918,
+      "offset": 925,
       "length": 35,
       "value": "\"JUSTPASSME_ENABLE_NETWORK_LOGGING\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 994,
       "length": 5,
       "value": "\"yes\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1080,
+      "offset": 1087,
       "length": 21,
       "value": "\"Request URL: \""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1107,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1143,
+      "offset": 1150,
       "length": 50,
       "value": "\"Response status code: \""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1199,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1223,
+      "offset": 1230,
       "length": 75,
       "value": "\"Response Data: \""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1304,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1473,
+      "offset": 1480,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1479,
+      "offset": 1486,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1580,
+      "offset": 1587,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1616,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1628,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2191,
+      "offset": 2198,
       "length": 5,
       "value": "\"app\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2225,
       "length": 22,
       "value": "\"JUSTPASS-ME-PLATFORM\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2393,
+      "offset": 2400,
       "length": 11,
       "value": "\"publicKey\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2722,
+      "offset": 2729,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2746,
+      "offset": 2753,
       "length": 5,
       "value": "\"ERR\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2823,
+      "offset": 2830,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 2855,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3368,
+      "offset": 3375,
       "length": 4,
       "value": "\"rp\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3409,
+      "offset": 3416,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3476,
       "length": 42,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3485,
+      "offset": 3492,
       "length": 1,
       "value": "\"\/auth\/fido2\/reg_complete\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3643,
+      "offset": 3650,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3671,
+      "offset": 3678,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3711,
+      "offset": 3718,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3802,
+      "offset": 3809,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3865,
+      "offset": 3872,
       "length": 7,
       "value": "\"rawId\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3931,
+      "offset": 3938,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3939,
+      "offset": 3946,
       "length": 12,
       "value": "\"public-key\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3959,
+      "offset": 3966,
       "length": 10,
       "value": "\"response\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 3981,
+      "offset": 3988,
       "length": 19,
       "value": "\"attestationObject\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 4070,
+      "offset": 4077,
       "length": 16,
       "value": "\"clientDataJSON\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 4194,
+      "offset": 4201,
       "length": 38,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 4210,
+      "offset": 4217,
       "length": 1,
       "value": "\"\/auth\/back_to_client\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4440,
+      "offset": 4447,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 4763,
+      "offset": 4770,
       "length": 6,
       "value": "\"rpId\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 4826,
+      "offset": 4833,
       "length": 43,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 4842,
+      "offset": 4849,
       "length": 1,
       "value": "\"\/auth\/fido2\/complete_auth\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5002,
+      "offset": 5009,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5030,
+      "offset": 5037,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5070,
+      "offset": 5077,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5161,
+      "offset": 5168,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5221,
+      "offset": 5228,
       "length": 7,
       "value": "\"rawId\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5284,
+      "offset": 5291,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5292,
+      "offset": 5299,
       "length": 12,
       "value": "\"public-key\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5312,
+      "offset": 5319,
       "length": 10,
       "value": "\"response\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 5343,
       "length": 19,
       "value": "\"authenticatorData\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5430,
       "length": 16,
       "value": "\"clientDataJSON\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5504,
+      "offset": 5511,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5572,
+      "offset": 5579,
       "length": 12,
       "value": "\"userHandle\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5680,
+      "offset": 5687,
       "length": 38,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/JustPassMeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5696,
+      "offset": 5703,
       "length": 1,
       "value": "\"\/auth\/back_to_client\/\""
     },

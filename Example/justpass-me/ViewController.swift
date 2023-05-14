@@ -24,8 +24,22 @@ class ViewController: UIViewController {
                     let result = try await JustPassMeClient.authenticate(authenticationURL: "https://europe-west3-justpass-me-sdk-example.cloudfunctions.net/ext-justpass-me-oidc/authenticate/");
                     print("Response Data: \(result)")
                 } catch {
-                    print("\(error.localizedDescription)")
-                    let errorAlert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+                    let nsError = error as NSError
+                    let customError = error as? JustPassMeClient.JustPassMeClientError
+                    let errorMessage: String
+                    switch customError {
+                    case .badURL:
+                        errorMessage = "Bad URL"
+                    case .badResponse:
+                        errorMessage = "Bad response"
+                    case .noPublicKey:
+                        errorMessage = "No public key"
+                    case .runtimeError(let description):
+                        errorMessage = description
+                    case .none:
+                        errorMessage = nsError.localizedDescription
+                    }
+                    let errorAlert = UIAlertController(title: "Error", message: errorMessage, preferredStyle: .alert)
                     errorAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                     self.present(errorAlert, animated: true, completion: nil)
                 }
