@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'justpass-me'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'justpass-me iOS sdk for passkeys'
   s.homepage         = 'https://www.justpass.me'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
