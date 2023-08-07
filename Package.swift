@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "JustPassMe",
+    name: "JustPassMeFramework",
     products: [
         .library(
             name: "JustPassMeFramework",
