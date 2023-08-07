@@ -13,12 +13,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
+
 justpass-me is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'justpass-me'
 ```
+
+### Swift Package Manager
+
+1. Open your project in Xcode
+2. Click "File" -> "Add Packages"
+3. Paste the following URL: https://github.com/justpass-me/Passkeys-native-IOS-Justpass
+4. Click "Next" -> "Next" -> "Finish"
 
 ## Author
 
