@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Justpass.me Developer' => 'shaer@justpass.me' }
   s.source           = { :git => 'https://github.com/justpass-me/justpass-me-iOS-sdk.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.ios.vendored_frameworks = 'justpass-me/Frameworks/JustPassMeFramework.xcframework'
+  s.ios.vendored_frameworks = 'Sources/JustPassMeFramework.xcframework'
   s.frameworks = 'UIKit'
   s.swift_versions = '4.0'
 end

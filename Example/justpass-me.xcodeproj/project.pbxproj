@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E13C7052A8154370025965A /* Pods_justpass_me_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E13C7032A8153A90025965A /* Pods_justpass_me_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8317A0FB43FF64A60096AC04 /* Pods_justpass_me_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6374FDEE6F0C7DD411EDC793 /* Pods_justpass_me_Example.framework */; };
 		F50CA1BFA3257CA1760BA7B8 /* Pods_justpass_me_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291DCE13834E40EF00B7B3F6 /* Pods_justpass_me_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		00BC3905481B9368057B6C69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E13C7022A8152830025965A /* Passkeys-native-IOS-Justpass */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Passkeys-native-IOS-Justpass"; path = ..; sourceTree = "<group>"; };
+		1E13C7032A8153A90025965A /* Pods_justpass_me_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_justpass_me_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		291DCE13834E40EF00B7B3F6 /* Pods_justpass_me_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_justpass_me_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		354BB02DE81FB1D2AAADA6DC /* Pods-justpass-me_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-justpass-me_Example.release.xcconfig"; path = "Target Support Files/Pods-justpass-me_Example/Pods-justpass-me_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* justpass-me_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "justpass-me_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8317A0FB43FF64A60096AC04 /* Pods_justpass_me_Example.framework in Frameworks */,
+				1E13C7052A8154370025965A /* Pods_justpass_me_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E13C7012A8152830025965A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1E13C7022A8152830025965A /* Passkeys-native-IOS-Justpass */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		293FB6F0FFB1CEFF1280B329 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		2CCD20B0A54E86CB57891C22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E13C7032A8153A90025965A /* Pods_justpass_me_Example.framework */,
 				6374FDEE6F0C7DD411EDC793 /* Pods_justpass_me_Example.framework */,
 				291DCE13834E40EF00B7B3F6 /* Pods_justpass_me_Tests.framework */,
 			);
@@ -93,6 +104,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				1E13C7012A8152830025965A /* Packages */,
 				652387E62A0ED57800FA8CD6 /* justpass-me_Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for justpass-me */,
@@ -172,7 +184,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BA11F6EAD82664436426ACEB /* [CP] Embed Pods Frameworks */,
+				DA42CC5D6ABC47ACDA386642 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,7 +346,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-justpass-me_Tests/Pods-justpass-me_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA11F6EAD82664436426ACEB /* [CP] Embed Pods Frameworks */ = {
+		DA42CC5D6ABC47ACDA386642 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
