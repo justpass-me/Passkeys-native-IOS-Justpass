@@ -29,11 +29,7 @@ struct LoginView: View {
   @EnvironmentObject var viewModel: AuthenticationViewModel
   @Environment(\.dismiss) var dismiss
   @EnvironmentObject var sceneDelegate: SceneDelegate
-
-
   @FocusState private var focus: FocusableField?
-  @State private var autoFillAuthorizationTask: Task<Void, Error>?
-
 
   private func signInWithEmailLink() {
     Task {
@@ -43,16 +39,8 @@ struct LoginView: View {
   }
     
   private func signInWithPasskeysAutofill () {
-    autoFillAuthorizationTask = Task {
-      await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: true)
-    }
-  }
-    
-  private func signInWithPasskeys () {
     Task {
-      autoFillAuthorizationTask?.cancel()
-      autoFillAuthorizationTask = nil
-      await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: false)
+      await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: true)
     }
   }
 
@@ -106,11 +94,6 @@ struct LoginView: View {
       .disabled(!viewModel.isValid)
       .frame(maxWidth: .infinity)
       .buttonStyle(.borderedProminent)
-
-      Button(action: signInWithPasskeys) {
-          Text("Login With Passkeys")
-      }
-
     }
     .listStyle(.plain)
     .padding()

@@ -5,7 +5,7 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>applinks:justpassmeexample.page.link</string>
-		<string>webcredentials:android.accounts.justpass.me?mode=developer</string>
+		<string>webcredentials:android.accounts.justpass.me</string>
 	</array>
 </dict>
 </plist>

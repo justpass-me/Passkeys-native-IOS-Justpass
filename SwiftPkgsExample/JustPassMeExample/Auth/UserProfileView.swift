@@ -67,6 +67,15 @@ struct UserProfileView: View {
         }
       }
       .listRowBackground(Color(UIColor.systemGroupedBackground))
+      Section {
+        Button(role: .cancel, action: registerPasskeys) {
+          HStack {
+            Spacer()
+            Text("Register Passkey")
+            Spacer()
+          }
+        }
+      }
       Section("Email") {
         VStack(alignment: .leading) {
           Text("Email")
@@ -92,15 +101,6 @@ struct UserProfileView: View {
           Text("Verified")
             .font(.caption)
           Text(viewModel.isVerified ? "Yes" : "No")
-        }
-      }
-      Section {
-        Button(role: .cancel, action: registerPasskeys) {
-          HStack {
-            Spacer()
-            Text("Register Passkey")
-            Spacer()
-          }
         }
       }
       Section {
