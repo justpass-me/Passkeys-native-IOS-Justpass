@@ -75,6 +75,17 @@ struct UserProfileView: View {
             Spacer()
           }
         }
+        if !viewModel.errorMessage.isEmpty || !viewModel.infoMessage.isEmpty {
+          HStack {
+            Spacer()
+              Text(viewModel.errorMessage.isEmpty ? viewModel.infoMessage : viewModel.errorMessage)
+                  .foregroundColor(viewModel.errorMessage.isEmpty ? Color(UIColor.systemGray): Color(UIColor.systemRed))
+                .multilineTextAlignment(.center)
+                .font(.footnote)
+            Spacer()
+          }
+            .listRowBackground(Color.clear)
+        }
       }
       Section("Email") {
         VStack(alignment: .leading) {

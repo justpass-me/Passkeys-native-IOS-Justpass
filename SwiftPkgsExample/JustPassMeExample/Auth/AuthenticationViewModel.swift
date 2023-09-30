@@ -21,6 +21,7 @@ import FirebaseAuth
 import Foundation
 import SwiftUI
 import JustPassMeFramework
+import AuthenticationServices
 
 enum AuthenticationState {
     case unauthenticated
@@ -52,6 +53,7 @@ class AuthenticationViewModel: ObservableObject {
     @Published var isValid = false
     @Published var authenticationState: AuthenticationState = .unauthenticated
     @Published var errorMessage = ""
+    @Published var infoMessage = ""
     @Published var user: User?
     @Published var displayName = ""
 
@@ -168,10 +170,14 @@ extension AuthenticationViewModel {
     
     func registerPasskeys(window: UIWindow) async {
         do {
+            errorMessage = ""
+            infoMessage = ""
             let userToken = try await Auth.auth().currentUser?.getIDToken()
             let registerClient = JustPassMeClient(presentationAnchor: window)
             let result = try await registerClient.register(registrationURL: registerURL, extraClientHeaders: ["Authorization" : "Bearer \(userToken!)"])
-            print("Response Data: \(result)")
+            infoMessage = "Passkey Registered Successfully!"
+        } catch let error as ASAuthorizationError where error.code == .canceled {
+            print("User canceled!")
         } catch {
             print(error)
             errorMessage = error.localizedDescription
@@ -180,6 +186,7 @@ extension AuthenticationViewModel {
     
     func loginPasskeys(window: UIWindow, autofill: Bool = false) async {
         do {
+            errorMessage = ""
             let authenticateClient = JustPassMeClient(presentationAnchor: window)
             let result = try await authenticateClient.authenticate(authenticationURL: authenticateURL, autoFill: autofill)
             let token = result["token"] as? String
@@ -187,6 +194,8 @@ extension AuthenticationViewModel {
                 try await Auth.auth().signIn(withCustomToken: token!)
             }
             print("Response Data: \(result)")
+        } catch let error as ASAuthorizationError where error.code == .canceled {
+            print("User canceled!")
         } catch {
             print(error)
             errorMessage = error.localizedDescription
