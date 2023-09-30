@@ -603,15 +603,22 @@
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
+      "kind": "Array",
+      "offset": 2448,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
       "kind": "StringLiteral",
-      "offset": 6957,
+      "offset": 7690,
       "length": 38,
       "value": "\"Received unknown authorization type.\""
     },
     {
       "filePath": "\/Users\/samehgalal\/Developer\/justpass-me-ios\/JustPassMeFramework\/PasskeyManager.swift",
       "kind": "StringLiteral",
-      "offset": 7571,
+      "offset": 8483,
       "length": 29,
       "value": "\"Both continuations are nil.\""
     },

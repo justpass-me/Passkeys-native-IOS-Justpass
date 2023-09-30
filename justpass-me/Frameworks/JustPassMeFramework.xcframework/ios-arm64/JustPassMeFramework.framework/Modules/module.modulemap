@@ -1,7 +1,7 @@
 framework module JustPassMeFramework {
   umbrella header "JustPassMeFramework.h"
-
   export *
+
   module * { export * }
 }
 
