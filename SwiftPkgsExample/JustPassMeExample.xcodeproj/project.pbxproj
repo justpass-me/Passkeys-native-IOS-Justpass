@@ -54,6 +54,8 @@
 		65E859BE2AC804A8003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859BD2AC804A8003D5009 /* JustPassMeFramework */; };
 		65E859C12AC80638003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859C02AC80638003D5009 /* JustPassMeFramework */; };
 		65E859C42AC8071D003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859C32AC8071D003D5009 /* JustPassMeFramework */; };
+		65E859D62AC9CA67003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859D52AC9CA67003D5009 /* JustPassMeFramework */; };
+		65E859D92AC9CFF9003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859D82AC9CFF9003D5009 /* JustPassMeFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,11 +113,13 @@
 				1E19C2502AC2E9350005C0B1 /* FirebaseAnalytics in Frameworks */,
 				1E19C2522AC2E9350005C0B1 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				1E19C2782AC2E9350005C0B1 /* FirebaseMLModelDownloader in Frameworks */,
+				65E859D92AC9CFF9003D5009 /* JustPassMeFramework in Frameworks */,
 				1E19C26C2AC2E9350005C0B1 /* FirebaseFirestoreSwift in Frameworks */,
 				1E19C2582AC2E9350005C0B1 /* FirebaseAppCheck in Frameworks */,
 				1E19C2562AC2E9350005C0B1 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				1E19C25C2AC2E9350005C0B1 /* FirebaseAuth in Frameworks */,
 				1E19C2602AC2E9350005C0B1 /* FirebaseCrashlytics in Frameworks */,
+				65E859D62AC9CA67003D5009 /* JustPassMeFramework in Frameworks */,
 				1E19C2802AC2E9350005C0B1 /* FirebaseRemoteConfigSwift in Frameworks */,
 				65E859C12AC80638003D5009 /* JustPassMeFramework in Frameworks */,
 				1E19C2722AC2E9350005C0B1 /* FirebaseInAppMessaging-Beta in Frameworks */,
@@ -276,6 +280,8 @@
 				65E859BD2AC804A8003D5009 /* JustPassMeFramework */,
 				65E859C02AC80638003D5009 /* JustPassMeFramework */,
 				65E859C32AC8071D003D5009 /* JustPassMeFramework */,
+				65E859D52AC9CA67003D5009 /* JustPassMeFramework */,
+				65E859D82AC9CFF9003D5009 /* JustPassMeFramework */,
 			);
 			productName = JustPassMeExample;
 			productReference = 1E19C20F2AC2E85F0005C0B1 /* JustPassMeExample.app */;
@@ -351,7 +357,7 @@
 			mainGroup = 1E19C2062AC2E85F0005C0B1;
 			packageReferences = (
 				1E19C24E2AC2E9350005C0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				65E859C22AC8071D003D5009 /* XCLocalSwiftPackageReference ".." */,
+				65E859D72AC9CFF9003D5009 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 1E19C2102AC2E85F0005C0B1 /* Products */;
 			projectDirPath = "";
@@ -738,7 +744,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		65E859C22AC8071D003D5009 /* XCLocalSwiftPackageReference ".." */ = {
+		65E859D72AC9CFF9003D5009 /* XCLocalSwiftPackageReference ".." */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ..;
 		};
@@ -912,6 +918,14 @@
 			productName = JustPassMeFramework;
 		};
 		65E859C32AC8071D003D5009 /* JustPassMeFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustPassMeFramework;
+		};
+		65E859D52AC9CA67003D5009 /* JustPassMeFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustPassMeFramework;
+		};
+		65E859D82AC9CFF9003D5009 /* JustPassMeFramework */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = JustPassMeFramework;
 		};

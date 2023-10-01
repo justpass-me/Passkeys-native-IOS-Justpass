@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0brhsRBZe5xilkc2xUT3WzE58k0=
+		KOrZTsUjNLQuj3CHvEDbWjrbXz8=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AsaVPiinIGatSzJQuVy2gVipMSs=
+		TagNCD4vr9qEPv2cNhvlyktJDQ8=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AsaVPiinIGatSzJQuVy2gVipMSs=
+		TagNCD4vr9qEPv2cNhvlyktJDQ8=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ny/JV8oFFDrddho4cu5osq4XMJo=
+		Nqblkxy6/1ij3yGL+FlsbDjusGU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAx6EcA1Wu1aG7YVMwp/+CHxQdwvjMjHkFz1/Uy7AR4=
+			G6b4Ij3Bh3phLr0Afj+jyTfvVQ+Cuvyrj5f2ndPiQnI=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkN34NgmEPNrZiH5AplsaMGRjR8Uqr4wrTrb5g1gJEE=
+			drb4WM5QPoxPLs1tYkwamfqsiPU5l6Xif0GIZ4svFpg=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkN34NgmEPNrZiH5AplsaMGRjR8Uqr4wrTrb5g1gJEE=
+			drb4WM5QPoxPLs1tYkwamfqsiPU5l6Xif0GIZ4svFpg=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zAtX33mO53ztPrx+XvJofgAZTP71mqFmJGHnhklklXw=
+			tJZQfHV3KwwEHCHAXn7dJBD3/9Fpu9rGUvMay5NIzUM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -14,10 +14,12 @@ import os
 @objc @available(iOS 16.0, *)
 final public class JustPassMeClient : ObjectiveC.NSObject {
   public enum JustPassMeClientError : Swift.Error {
-    case badURL
-    case badResponse
-    case noPublicKey
+    case badURL(Swift.String)
+    case noPublicKey(Foundation.NSDictionary)
     case runtimeError(Swift.String)
+    public var errorDescription: Swift.String? {
+      get
+    }
   }
   @objc public init(presentationAnchor: AuthenticationServices.ASPresentationAnchor)
   #if compiler(>=5.3) && $AsyncAwait
