@@ -39,6 +39,12 @@ enum EmailLinkStatus {
     case pending
 }
 
+enum PasskeyRegistrationState {
+    case idle
+    case registering
+    case registered
+}
+
 let justPassMeURL = "https://europe-west3-justpass-me-sdk-example.cloudfunctions.net/ext-justpass-me-oidc"
 let authenticateURL = "\(justPassMeURL)/authenticate/"
 let registerURL = "\(justPassMeURL)/register/"
@@ -52,8 +58,8 @@ class AuthenticationViewModel: ObservableObject {
 
     @Published var isValid = false
     @Published var authenticationState: AuthenticationState = .unauthenticated
+    @Published var registrationState: PasskeyRegistrationState = .idle
     @Published var errorMessage = ""
-    @Published var infoMessage = ""
     @Published var user: User?
     @Published var displayName = ""
 
@@ -171,15 +177,16 @@ extension AuthenticationViewModel {
     func registerPasskeys(window: UIWindow) async {
         do {
             errorMessage = ""
-            infoMessage = ""
+            registrationState = .registering
             let userToken = try await Auth.auth().currentUser?.getIDToken()
             let registerClient = JustPassMeClient(presentationAnchor: window)
             let result = try await registerClient.register(registrationURL: registerURL, extraClientHeaders: ["Authorization" : "Bearer \(userToken!)"])
-            infoMessage = "Passkey Registered Successfully!"
+            registrationState = .registered
         } catch let error as ASAuthorizationError where error.code == .canceled {
-            print("User canceled!")
+            registrationState = .idle
         } catch {
             print(error)
+            registrationState = .idle
             errorMessage = error.localizedDescription
         }
     }

@@ -13,7 +13,7 @@ import _SwiftConcurrencyShims
 import os
 @objc @available(iOS 16.0, *)
 final public class JustPassMeClient : ObjectiveC.NSObject {
-  public enum JustPassMeClientError : Swift.Error {
+  public enum JustPassMeClientError : Foundation.LocalizedError {
     case badURL(Swift.String)
     case noPublicKey(Foundation.NSDictionary)
     case runtimeError(Swift.String)

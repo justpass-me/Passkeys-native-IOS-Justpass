@@ -53,6 +53,7 @@ struct FavouritesApp: App {
           Spacer()
         }
       }
+      .navigationViewStyle(StackNavigationViewStyle())
     }
   }
 }

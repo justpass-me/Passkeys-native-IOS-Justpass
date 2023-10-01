@@ -56,6 +56,7 @@
 		65E859C42AC8071D003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859C32AC8071D003D5009 /* JustPassMeFramework */; };
 		65E859D62AC9CA67003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859D52AC9CA67003D5009 /* JustPassMeFramework */; };
 		65E859D92AC9CFF9003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859D82AC9CFF9003D5009 /* JustPassMeFramework */; };
+		65E859DC2AC9D6FC003D5009 /* JustPassMeFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 65E859DB2AC9D6FC003D5009 /* JustPassMeFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 				1E19C2642AC2E9350005C0B1 /* FirebaseDatabaseSwift in Frameworks */,
 				1E19C26E2AC2E9350005C0B1 /* FirebaseFunctions in Frameworks */,
 				1E19C2842AC2E9350005C0B1 /* FirebaseStorageCombine-Community in Frameworks */,
+				65E859DC2AC9D6FC003D5009 /* JustPassMeFramework in Frameworks */,
 				1E19C27E2AC2E9350005C0B1 /* FirebaseRemoteConfig in Frameworks */,
 				1E19C25A2AC2E9350005C0B1 /* FirebaseAppDistribution-Beta in Frameworks */,
 				1E19C25E2AC2E9350005C0B1 /* FirebaseAuthCombine-Community in Frameworks */,
@@ -282,6 +284,7 @@
 				65E859C32AC8071D003D5009 /* JustPassMeFramework */,
 				65E859D52AC9CA67003D5009 /* JustPassMeFramework */,
 				65E859D82AC9CFF9003D5009 /* JustPassMeFramework */,
+				65E859DB2AC9D6FC003D5009 /* JustPassMeFramework */,
 			);
 			productName = JustPassMeExample;
 			productReference = 1E19C20F2AC2E85F0005C0B1 /* JustPassMeExample.app */;
@@ -357,7 +360,7 @@
 			mainGroup = 1E19C2062AC2E85F0005C0B1;
 			packageReferences = (
 				1E19C24E2AC2E9350005C0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				65E859D72AC9CFF9003D5009 /* XCLocalSwiftPackageReference ".." */,
+				65E859DA2AC9D6FB003D5009 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 1E19C2102AC2E85F0005C0B1 /* Products */;
 			projectDirPath = "";
@@ -744,7 +747,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		65E859D72AC9CFF9003D5009 /* XCLocalSwiftPackageReference ".." */ = {
+		65E859DA2AC9D6FB003D5009 /* XCLocalSwiftPackageReference ".." */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ..;
 		};
@@ -926,6 +929,10 @@
 			productName = JustPassMeFramework;
 		};
 		65E859D82AC9CFF9003D5009 /* JustPassMeFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustPassMeFramework;
+		};
+		65E859DB2AC9D6FC003D5009 /* JustPassMeFramework */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = JustPassMeFramework;
 		};

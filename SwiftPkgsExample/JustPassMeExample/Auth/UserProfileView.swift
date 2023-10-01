@@ -71,14 +71,26 @@ struct UserProfileView: View {
         Button(role: .cancel, action: registerPasskeys) {
           HStack {
             Spacer()
-            Text("Register Passkey")
+            switch viewModel.registrationState {
+            case .idle:
+                Text("Register Passkey")
+
+            case .registering:
+                ProgressView() // Spinning wheel
+                Text("Registering Passkey")
+
+            case .registered:
+                Image(systemName: "checkmark") // Success check
+                Text("Passkey Registered")
+            }
             Spacer()
           }
         }
-        if !viewModel.errorMessage.isEmpty || !viewModel.infoMessage.isEmpty {
+        .disabled(viewModel.registrationState != .idle)
+        if !viewModel.errorMessage.isEmpty {
           HStack {
             Spacer()
-              Text(viewModel.errorMessage.isEmpty ? viewModel.infoMessage : viewModel.errorMessage)
+              Text(viewModel.errorMessage)
                   .foregroundColor(viewModel.errorMessage.isEmpty ? Color(UIColor.systemGray): Color(UIColor.systemRed))
                 .multilineTextAlignment(.center)
                 .font(.footnote)
