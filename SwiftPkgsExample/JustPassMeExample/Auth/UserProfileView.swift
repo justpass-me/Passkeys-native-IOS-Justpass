@@ -71,22 +71,20 @@ struct UserProfileView: View {
         Button(role: .cancel, action: registerPasskeys) {
           HStack {
             Spacer()
-            switch viewModel.registrationState {
-            case .idle:
-                Text("Register Passkey")
-
-            case .registering:
-                ProgressView() // Spinning wheel
-                Text("Registering Passkey")
-
-            case .registered:
-                Image(systemName: "checkmark") // Success check
-                Text("Passkey Registered")
+            if viewModel.loginMethod == "passkey" || viewModel.registrationState == .registered {
+              Image(systemName: "checkmark") // Success check
+              Text("Passkey Registered")
+            }
+            else if viewModel.registrationState == .registering {
+              ProgressView() // Spinning wheel
+              Text("Registering Passkey")
+            } else {
+              Text("Register Passkey")
             }
             Spacer()
           }
         }
-        .disabled(viewModel.registrationState != .idle)
+        .disabled(viewModel.registrationState != .idle || viewModel.loginMethod == "passkey")
         if !viewModel.errorMessage.isEmpty {
           HStack {
             Spacer()
