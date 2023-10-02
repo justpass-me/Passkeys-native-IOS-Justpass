@@ -65,6 +65,7 @@ class AuthenticationViewModel: ObservableObject {
 
     @Published var isGuestUser = false
     @Published var isVerified = false
+    @AppStorage("login-method") var loginMethod = "Unknown"
     
     init() {
         registerAuthStateHandler()
@@ -154,6 +155,7 @@ extension AuthenticationViewModel {
             do {
                 let result = try await Auth.auth().signIn(withEmail: email, link: link)
                 let user = result.user
+                loginMethod = "email link"
                 print("User \(user.uid) signed in with email \(user.email ?? "(unknown)"). The email is \(user.isEmailVerified ? "" : "NOT") verified")
                 emailLink = nil
             } catch {
@@ -199,6 +201,7 @@ extension AuthenticationViewModel {
             let token = result["token"] as? String
             if ((token) != nil){
                 try await Auth.auth().signIn(withCustomToken: token!)
+                loginMethod = "passkey"
             }
             print("Response Data: \(result)")
         } catch let error as ASAuthorizationError where error.code == .canceled {

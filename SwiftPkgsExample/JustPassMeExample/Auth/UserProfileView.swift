@@ -106,14 +106,14 @@ struct UserProfileView: View {
           Text(viewModel.displayName)
         }
         VStack(alignment: .leading) {
-          Text("UID")
+          Text("Firebase UID")
             .font(.caption)
           Text(viewModel.user?.uid ?? "(unknown)")
         }
         VStack(alignment: .leading) {
-          Text("Provider")
+          Text("Login Method")
             .font(.caption)
-          Text(viewModel.user?.providerData[0].providerID ?? "(unknown)")
+          Text( viewModel.loginMethod )//viewModel.user?.providerData[0].providerID ?? "(unknown)")
         }
         VStack(alignment: .leading) {
           Text("Anonymous / Guest user")
