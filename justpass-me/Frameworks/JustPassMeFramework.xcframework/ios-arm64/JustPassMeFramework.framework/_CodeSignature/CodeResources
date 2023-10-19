@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JustPassMeFramework-Swift.h</key>
 		<data>
-		1X//LoGnrr/Jhd9Dap7aDBoIBe4=
+		huWKoeNF+0F3Y4vuxGd72mzFtNk=
 		</data>
 		<key>Headers/JustPassMeFramework.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bnzscnnz9/7Z3O+KHV1jNZE/AW0=
+		v/J2JCAU+bvShNGM20lTNfp4hug=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KfFnx8rIAk6kQ7YhT5MvfDD+AvQ=
+		J19bAZDy7+z0EGoARXOztHuwARk=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		pBLXoRy2B8FUy2wpiLPjUEvDKI4=
+		48kVtAB8cjOBGXXq1SL38336CqU=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		P4DHH5fAzhiGGc5VyCUgwKJoqBk=
+		rq2V/K6ivN1oVHn8j2lrHBze9VE=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		pBLXoRy2B8FUy2wpiLPjUEvDKI4=
+		48kVtAB8cjOBGXXq1SL38336CqU=
 		</data>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		az88oC6bL30RCkXJkrhc7zVd76w=
+		udJr8e1zQDT61sMvJ5KV14mXWbA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		y6pjTtYkYJ001WI2fSiNvLb1WHo=
+		1tafS3Op5czlmTK/j+x3ZwL8FWA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bL3pHK5ltgbWUlT785LV9+83CqOCfvWxr44wbWlYdgg=
+			O9slugJInqZ70rJ5SHC9NHyuk8JwRDpDYgrPWxMTS2k=
 			</data>
 		</dict>
 		<key>Headers/JustPassMeFramework.h</key>
@@ -61,42 +61,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MbEFliyZ1mqPocUhg7lUnKNUi3seaGH9ct8tMxvdWYM=
+			NP8/kH6y+YoFcBLBDhipommJ+VhOv95Kw5Qzf3CAgHg=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8/kYB8y/VuBWzN3n1+9Pszwliys5Z6Bm57LZ4IOagH0=
+			OPFTG1SHgfXFkJP/KQteDx9YmRw7sWQZ6q4T2jurnnw=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kvquCOZ/4/2gZzQPFFC1phUiPCa6hsoMaR6CtJqy54M=
+			nrlNz8a70j9yJke+0MDgUd72fMj71l1rmQVBBYSZRFA=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8/kYB8y/VuBWzN3n1+9Pszwliys5Z6Bm57LZ4IOagH0=
+			OPFTG1SHgfXFkJP/KQteDx9YmRw7sWQZ6q4T2jurnnw=
 			</data>
 		</dict>
 		<key>Modules/JustPassMeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tN/0z36xDNS2ftSqqpR4GAemLr9YVOrnaZs66KUPux4=
+			RBG3tCAnPyuIApFXFxtMCm10lZXjIx9/L302qZHRXJM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gL8ex0XG9BzN6Bt8SEHz7vLijp0QszSpeTZFX5Djjxc=
+			Jw/LAlCTYzICXwd2Xo71QChhTLFJHiABe0lnpmGshWU=
 			</data>
 		</dict>
 	</dict>
