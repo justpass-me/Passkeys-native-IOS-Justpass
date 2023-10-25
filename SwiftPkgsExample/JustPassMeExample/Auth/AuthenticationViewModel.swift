@@ -66,6 +66,7 @@ class AuthenticationViewModel: ObservableObject {
     @Published var isGuestUser = false
     @Published var isVerified = false
     @AppStorage("login-method") var loginMethod = "Unknown"
+    @AppStorage("has-passkeys") var hasPasskeys = false
     
     init() {
         registerAuthStateHandler()
@@ -184,6 +185,7 @@ extension AuthenticationViewModel {
             let registerClient = JustPassMeClient(presentationAnchor: window)
             let result = try await registerClient.register(registrationURL: registerURL, extraClientHeaders: ["Authorization" : "Bearer \(userToken!)"])
             registrationState = .registered
+            hasPasskeys = true
         } catch let error as ASAuthorizationError where error.code == .canceled {
             registrationState = .idle
         } catch {
@@ -202,6 +204,7 @@ extension AuthenticationViewModel {
             if ((token) != nil){
                 try await Auth.auth().signIn(withCustomToken: token!)
                 loginMethod = "passkey"
+                hasPasskeys = true
             }
             print("Response Data: \(result)")
         } catch let error as ASAuthorizationError where error.code == .canceled {

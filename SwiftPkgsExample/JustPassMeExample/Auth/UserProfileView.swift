@@ -71,7 +71,7 @@ struct UserProfileView: View {
         Button(role: .cancel, action: registerPasskeys) {
           HStack {
             Spacer()
-            if viewModel.loginMethod == "passkey" || viewModel.registrationState == .registered {
+            if viewModel.hasPasskeys {
               Image(systemName: "checkmark") // Success check
               Text("Passkey Registered")
             }

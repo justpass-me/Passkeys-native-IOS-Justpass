@@ -96,9 +96,11 @@ struct LoginView: View {
         .disabled(!viewModel.isValid)
         .frame(maxWidth: .infinity)
         .buttonStyle(.borderedProminent)
-        SignInPassKeysButton(action: {
-          signInWithPasskeys(autofill: false)
-        })
+        if viewModel.hasPasskeys {
+          SignInPassKeysButton(action: {
+            signInWithPasskeys(autofill: false)
+          })
+        }
       }
 
     }

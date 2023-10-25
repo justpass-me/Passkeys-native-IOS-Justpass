@@ -81,11 +81,13 @@ struct AuthenticatedView<Content, Unauthenticated>: View where Content: View, Un
           Text("You need to be logged in to use this app.")
           HStack{
             loginButton("Log in")
-            SignInPassKeysButton(action: {
-              Task {
-                await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: false)
-              }
-            })
+            if viewModel.hasPasskeys {
+              SignInPassKeysButton(action: {
+                Task {
+                  await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: false)
+                }
+              })
+            }
           }
           
         }
