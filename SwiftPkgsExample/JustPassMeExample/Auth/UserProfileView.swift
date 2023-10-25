@@ -71,7 +71,7 @@ struct UserProfileView: View {
         Button(role: .cancel, action: registerPasskeys) {
           HStack {
             Spacer()
-            if viewModel.loginMethod == "passkey" || viewModel.registrationState == .registered {
+            if viewModel.hasPasskeys {
               Image(systemName: "checkmark") // Success check
               Text("Passkey Registered")
             }
@@ -133,7 +133,7 @@ struct UserProfileView: View {
           }
         }
       }
-      Section {
+      /*Section {
         Button(role: .destructive, action: { presentingConfirmationDialog.toggle() }) {
           HStack {
             Spacer()
@@ -141,7 +141,7 @@ struct UserProfileView: View {
             Spacer()
           }
         }
-      }
+      }*/
     }
     .navigationTitle("Profile")
     .navigationBarTitleDisplayMode(.inline)
