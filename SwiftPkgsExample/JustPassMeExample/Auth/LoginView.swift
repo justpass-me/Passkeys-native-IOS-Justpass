@@ -30,6 +30,7 @@ struct LoginView: View {
   @Environment(\.dismiss) var dismiss
   @EnvironmentObject var sceneDelegate: SceneDelegate
   @FocusState private var focus: FocusableField?
+  @State private var task: Task<Void, Never>?
 
   private func signInWithEmailLink() {
     Task {
@@ -38,9 +39,10 @@ struct LoginView: View {
     }
   }
     
-  private func signInWithPasskeysAutofill () {
-    Task {
-      await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: true)
+  private func signInWithPasskeys (autofill: Bool) {
+    task?.cancel()
+    task = Task {
+      await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: autofill)
     }
   }
 
@@ -77,29 +79,34 @@ struct LoginView: View {
             .foregroundColor(Color(UIColor.systemRed))
         }
       }
-
-      Button(action: signInWithEmailLink) {
-        if viewModel.authenticationState != .authenticating {
-          Text("Login")
-            .padding(.vertical, 8)
-            .frame(maxWidth: .infinity)
+      HStack {
+        Button(action: signInWithEmailLink) {
+          if viewModel.authenticationState != .authenticating {
+            Text("Login")
+              .padding(.vertical, 8)
+              .frame(maxWidth: .infinity)
+          }
+          else {
+            ProgressView()
+              .progressViewStyle(CircularProgressViewStyle(tint: .white))
+              .padding(.vertical, 8)
+              .frame(maxWidth: .infinity)
+          }
         }
-        else {
-          ProgressView()
-            .progressViewStyle(CircularProgressViewStyle(tint: .white))
-            .padding(.vertical, 8)
-            .frame(maxWidth: .infinity)
-        }
+        .disabled(!viewModel.isValid)
+        .frame(maxWidth: .infinity)
+        .buttonStyle(.borderedProminent)
+        SignInPassKeysButton(action: {
+          signInWithPasskeys(autofill: false)
+        })
       }
-      .disabled(!viewModel.isValid)
-      .frame(maxWidth: .infinity)
-      .buttonStyle(.borderedProminent)
+
     }
     .listStyle(.plain)
     .padding()
     .analyticsScreen(name: "\(Self.self)")
     .task {
-      signInWithPasskeysAutofill()
+      signInWithPasskeys(autofill: true)
     }
   }
 }

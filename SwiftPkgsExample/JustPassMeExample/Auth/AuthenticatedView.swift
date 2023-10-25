@@ -31,6 +31,7 @@ struct AuthenticatedView<Content, Unauthenticated>: View where Content: View, Un
     @StateObject private var viewModel = AuthenticationViewModel()
   @State private var presentingLoginScreen = false
   @State private var presentingProfileScreen = false
+  @EnvironmentObject var sceneDelegate: SceneDelegate
   
   var unauthenticated: Unauthenticated?
   @ViewBuilder var content: () -> Content
@@ -78,7 +79,15 @@ struct AuthenticatedView<Content, Unauthenticated>: View where Content: View, Un
         }
         if viewModel.emailLinkStatus == .none {
           Text("You need to be logged in to use this app.")
-          loginButton("Log in")
+          HStack{
+            loginButton("Log in")
+            SignInPassKeysButton(action: {
+              Task {
+                await viewModel.loginPasskeys(window: sceneDelegate.window!, autofill: false)
+              }
+            })
+          }
+          
         }
         else  {
           Text("Check your email!")

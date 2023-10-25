@@ -133,7 +133,7 @@ struct UserProfileView: View {
           }
         }
       }
-      Section {
+      /*Section {
         Button(role: .destructive, action: { presentingConfirmationDialog.toggle() }) {
           HStack {
             Spacer()
@@ -141,7 +141,7 @@ struct UserProfileView: View {
             Spacer()
           }
         }
-      }
+      }*/
     }
     .navigationTitle("Profile")
     .navigationBarTitleDisplayMode(.inline)
